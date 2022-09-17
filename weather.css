@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background-image: url("weather.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    opacity: .8;
+    height: 60%;
+    width: 40%;
+    border-radius: 5%;
+    position: relative;
+}
+
+#search_bar{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 300px;
+    height: 20px;
+    font-family: sans-serif;
+}
+
+img{
+ 
+    height: 10px;
+}
+
+#temp{
+    width: 200px;
+    height: 150px;
+    background-color: transparent;
+    margin-top: 22%;
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#wind_speed{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: 42%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+#humidity{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: 32%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+#state{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: 22%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+#city_name{
+    width: 400px;
+    height: 70px;
+    background-color: transparent;
+    color: white;
+    margin-top: 5%;
+    margin-left: 14%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+/*------------Responsive--------------*/
+
+@media screen and (max-width : 700px){
+    .container{
+        background-color: black;
+        opacity: .8;
+        height: 50%;
+        width: 70%;
+        border-radius: 5%;
+        position: relative;
+    }
+}
